@@ -35,19 +35,23 @@ ul {
 .masthead {
     background-color: #04A777;
     color: #FFF;
-    padding: 100px 150px;
+    padding: 75px 100px;
+    display: flex;
+    gap: 60px;
 }
 
 .masthead h1 {
     font-family: Komet, Arial, Helvetica, sans-serif;
     font-size: 56px;
     font-weight: 900;
+    margin-bottom: 20px;
 }
 
 .masthead h2 {
     font-family: Quasimoda, Arial, Helvetica, sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 400;
+    margin-top: 0;
 }
 
 .masthead button {
@@ -63,6 +67,6 @@ ul {
 }
 
 .masthead img {
-    height: 500px;
+    height: 400px;
     width: auto;
 }
