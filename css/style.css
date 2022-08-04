@@ -69,4 +69,26 @@ ul {
 .masthead img {
     height: 400px;
     width: auto;
+    border-radius: 10px;
+}
+
+.cards h2{
+    font-family: Komet, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.cards img {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.cards p {
+    font-family: Quasimoda, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
 }
