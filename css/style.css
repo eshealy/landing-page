@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #04A777;
+    background-color: #EB5E55;
     padding: 15px 100px;
     font-family: Komet, Arial, Helvetica, sans-serif;
     display: flex;
@@ -33,7 +33,7 @@ ul {
 }
 
 .masthead {
-    background-color: #04A777;
+    background-color: #EB5E55;
     color: #FFF;
     padding: 75px 100px;
     display: flex;
@@ -94,7 +94,6 @@ ul {
 .cards p {
     font-family: Quasimoda, Arial, Helvetica, sans-serif;
     font-size: 18px;
-    font-weight: 600;
     margin: 0 auto;
 }
 
@@ -102,4 +101,8 @@ ul {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+}
+
+.cards .container {
+    width: 200px;
 }
