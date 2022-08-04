@@ -1,6 +1,6 @@
 # landing-page
 
-This project is a tests flexbox skills in creating a landing page. This project helped me understand how different elements needed to be grouped so that the flex would work properly.
+For this project, I utilized flex layout to create a landing page for a made up pet website. This project helped me understand how different elements needed to be grouped so that the flex would work properly.
 
 IMAGE CREDITS
 
