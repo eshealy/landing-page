@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #EB5E55;
+    background-color: rgba(235, 94, 85, 1.00);
     padding: 15px 100px;
     font-family: Komet, Arial, Helvetica, sans-serif;
     display: flex;
@@ -14,7 +14,7 @@ header {
 .logo {
     font-size: 36px;
     font-weight: 800;
-    color: #FFF;
+    color: rgba(255, 255, 255, 1.00);;
 }
 
 ul {
@@ -29,12 +29,12 @@ ul {
 }
 .link a {
     text-decoration: none;
-    color: #FFF;
+    color: rgba(255, 255, 255, 1.00);;
 }
 
 .masthead {
-    background-color: #EB5E55;
-    color: #FFF;
+    background-color: rgba(235, 94, 85, 1.00);
+    color: rgba(255, 255, 255, 1.00);
     padding: 75px 100px;
     display: flex;
     gap: 60px;
@@ -55,12 +55,13 @@ ul {
 }
 
 .masthead button {
+    cursor: pointer;
     border: none;
     outline: none;
     font-family: Komet, Arial, Helvetica, sans-serif;
     font-size: 16px;
-    background-color: #FFF;
-    color: #EB5E55;
+    background-color: rgba(255, 255, 255, 1.00);
+    color: rgba(235, 94, 85, 1.00);
     padding: 15px;
     font-weight: 700;
     border-radius: 10px;
@@ -132,14 +133,19 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 80px;
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 1.00);
 }
 
-.cta .container {
-    background-color: #EB5E55;
+.cta {
+    background-color: rgb(242, 73, 61);
+    border-radius: 10px;
     margin: 70px 200px;
-    padding: 30px;
-    color: #FFF;
+    padding: 30px 110px;
+    color: rgba(255, 255, 255, 1.00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
 .cta p {
@@ -149,12 +155,18 @@ ul {
 }
 
 .cta button {
-    border: solid 2px #FFF;
+    border: solid 2px rgba(255, 255, 255, 1.00);
     outline: none;
     background: none;
     padding: 10px;
     font-family: Komet, Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #FFF;
+    color: rgba(255, 255, 255, 1.00);
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.cta .container {
+
 }
