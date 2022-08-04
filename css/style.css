@@ -6,8 +6,9 @@ body {
 
 header {
     background-color: #04A777;
-    padding: 15px;
+    padding: 15px 100px;
     font-family: Komet, Arial, sans-serif;
+    display: flex;
 }
 
 .logo {
@@ -22,6 +23,9 @@ ul {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
 }
 .link a {
     text-decoration: none;
