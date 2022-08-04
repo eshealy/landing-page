@@ -72,11 +72,16 @@ ul {
     border-radius: 10px;
 }
 
-.cards h2{
+.info {
+    padding: 20px 50px;
+}
+
+.info h2{
     font-family: Komet, Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .cards img {
@@ -91,4 +96,10 @@ ul {
     font-size: 18px;
     font-weight: 600;
     margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
