@@ -73,7 +73,7 @@ ul {
 }
 
 .info {
-    padding: 20px 50px;
+    padding: 20px 150px;
 }
 
 .info h2{
@@ -105,4 +105,29 @@ ul {
 
 .cards .container {
     width: 200px;
+}
+
+.testimonial h2{
+    font-family: Komet, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    font-style: italic;
+    width: 500px;
+}
+
+.testimonial p {
+    font-family: Quasimoda, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    width: 500px;
+    margin-left: auto;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    background-color: lightgray;
 }
