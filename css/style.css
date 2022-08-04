@@ -60,7 +60,7 @@ ul {
     font-family: Komet, Arial, Helvetica, sans-serif;
     font-size: 16px;
     background-color: #FFF;
-    color: #04A777;
+    color: #EB5E55;
     padding: 15px;
     font-weight: 700;
     border-radius: 10px;
@@ -114,14 +114,16 @@ ul {
     font-size: 28px;
     font-style: italic;
     width: 500px;
+    margin-bottom: 0;
 }
 
 .testimonial p {
     font-family: Quasimoda, Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 18px;
     width: 500px;
     margin-left: auto;
+    margin-top: 0;
 }
 
 .testimonial {
@@ -131,4 +133,28 @@ ul {
     justify-content: center;
     padding: 80px;
     background-color: lightgray;
+}
+
+.cta .container {
+    background-color: #EB5E55;
+    margin: 70px 200px;
+    padding: 30px;
+    color: #FFF;
+}
+
+.cta p {
+    font-size: 18px;
+    font-family: Komet, Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+.cta button {
+    border: solid 2px #FFF;
+    outline: none;
+    background: none;
+    padding: 10px;
+    font-family: Komet, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
 }
