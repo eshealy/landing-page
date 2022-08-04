@@ -7,7 +7,7 @@ body {
 header {
     background-color: #04A777;
     padding: 15px 100px;
-    font-family: Komet, Arial, sans-serif;
+    font-family: Komet, Arial, Helvetica, sans-serif;
     display: flex;
 }
 
@@ -30,4 +30,39 @@ ul {
 .link a {
     text-decoration: none;
     color: #FFF;
+}
+
+.masthead {
+    background-color: #04A777;
+    color: #FFF;
+    padding: 100px 150px;
+}
+
+.masthead h1 {
+    font-family: Komet, Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.masthead h2 {
+    font-family: Quasimoda, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.masthead button {
+    border: none;
+    outline: none;
+    font-family: Komet, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #FFF;
+    color: #04A777;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.masthead img {
+    height: 500px;
+    width: auto;
 }
